@@ -1,0 +1,47 @@
+{
+	"menu": {
+		"item": [
+			{
+				"objectId": 1,
+				"scope": "contact",
+				"action": "download",
+				"caption": "DOC"
+			},
+			{
+				"objectId": 2,
+				"scope": "contact",
+				"action": "download",
+				"caption": "PPT"
+			},
+			{
+				"objectId": 3,
+				"scope": "company",
+				"action": "download",
+				"caption": "DOC"
+			},
+			{
+				"objectId": 4,
+				"scope": "company",
+				"action": "download",
+				"caption": "PPT"
+			},			{
+				"objectId": 5,
+				"scope": "contact",
+				"action": "download",
+				"caption": "PDF"
+			},
+			{
+				"objectId": 6,
+				"scope": "company",
+				"action": "download",
+				"caption": "PDF"
+			},			
+			{
+				"objectId": 7,
+				"scope": "contact",
+				"action": "task",
+				"caption": "Email with attachment"
+			}
+		]
+	}
+}

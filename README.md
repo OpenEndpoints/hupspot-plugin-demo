@@ -1,1 +1,0 @@
-# hupspot-plugin-demo

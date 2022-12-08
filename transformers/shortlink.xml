@@ -1,0 +1,4 @@
+ <transformer data-source="parameters">
+	<xslt-file name="shortlink.xslt"/>
+	<convert-output-xml-to-json/>
+ </transformer>

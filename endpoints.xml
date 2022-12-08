@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint-folder>
+	<parameter name="objectId" default-value=""/>
+	<parameter name="currentDate" default-value=""/>
+	<parameter name="currentDateFormatted" default-value=""/>
+	<!-- hubspot parameter -->
+	<parameter name="contact_address" default-value=""/>
+	<parameter name="contact_annualrevenue" default-value=""/>
+	<parameter name="contact_associatedcompanyid" default-value=""/>
+	<parameter name="contact_associatedcompanylastupdated" default-value=""/>
+	<parameter name="contact_city" default-value=""/>
+	<parameter name="contact_closedate" default-value=""/>
+	<parameter name="contact_company" default-value=""/>
+	<parameter name="contact_company_size" default-value=""/>
+	<parameter name="contact_country" default-value=""/>
+	<parameter name="contact_createdate" default-value=""/>
+	<parameter name="contact_currentlyinworkflow" default-value=""/>
+	<parameter name="contact_date_of_birth" default-value=""/>
+	<parameter name="contact_days_to_close" default-value=""/>
+	<parameter name="contact_degree" default-value=""/>
+	<parameter name="contact_email" default-value=""/>
+	<parameter name="contact_engagements_last_meeting_booked" default-value=""/>
+	<parameter name="contact_engagements_last_meeting_booked_campaign" default-value=""/>
+	<parameter name="contact_engagements_last_meeting_booked_medium" default-value=""/>
+	<parameter name="contact_engagements_last_meeting_booked_source" default-value=""/>
+	<parameter name="contact_fax" default-value=""/>
+	<parameter name="contact_field_of_study" default-value=""/>
+	<parameter name="contact_first_conversion_date" default-value=""/>
+	<parameter name="contact_first_conversion_event_name" default-value=""/>
+	<parameter name="contact_first_deal_created_date" default-value=""/>
+	<parameter name="contact_firstname" default-value=""/>
+	<parameter name="contact_followercount" default-value=""/>
+	<parameter name="contact_gender" default-value=""/>
+	<parameter name="contact_graduation_date" default-value=""/>
+	<parameter name="contact_hs_additional_emails" default-value=""/>
+	<parameter name="contact_hs_all_accessible_team_ids" default-value=""/>
+	<parameter name="contact_hs_all_assigned_business_unit_ids" default-value=""/>
+	<parameter name="contact_hs_all_contact_vids" default-value=""/>
+	<parameter name="contact_hs_all_owner_ids" default-value=""/>
+	<parameter name="contact_hs_all_team_ids" default-value=""/>
+	<parameter name="contact_hs_analytics_average_page_views" default-value=""/>
+	<parameter name="contact_hs_analytics_first_referrer" default-value=""/>
+	<parameter name="contact_hs_analytics_first_timestamp" default-value=""/>
+	<parameter name="contact_hs_analytics_first_touch_converting_campaign" default-value=""/>
+	<parameter name="contact_hs_analytics_first_url" default-value=""/>
+	<parameter name="contact_hs_analytics_first_visit_timestamp" default-value=""/>
+	<parameter name="contact_hs_analytics_last_referrer" default-value=""/>
+	<parameter name="contact_hs_analytics_last_timestamp" default-value=""/>
+	<parameter name="contact_hs_analytics_last_touch_converting_campaign" default-value=""/>
+	<parameter name="contact_hs_analytics_last_url" default-value=""/>
+	<parameter name="contact_hs_analytics_last_visit_timestamp" default-value=""/>
+	<parameter name="contact_hs_analytics_num_event_completions" default-value=""/>
+	<parameter name="contact_hs_analytics_num_page_views" default-value=""/>
+	<parameter name="contact_hs_analytics_num_visits" default-value=""/>
+	<parameter name="contact_hs_analytics_revenue" default-value=""/>
+	<parameter name="contact_hs_analytics_source" default-value=""/>
+	<parameter name="contact_hs_analytics_source_data_1" default-value=""/>
+	<parameter name="contact_hs_analytics_source_data_2" default-value=""/>
+	<parameter name="contact_hs_avatar_filemanager_key" default-value=""/>
+	<parameter name="contact_hs_buying_role" default-value=""/>
+	<parameter name="contact_hs_calculated_form_submissions" default-value=""/>
+	<parameter name="contact_hs_calculated_merged_vids" default-value=""/>
+	<parameter name="contact_hs_calculated_mobile_number" default-value=""/>
+	<parameter name="contact_hs_calculated_phone_number" default-value=""/>
+	<parameter name="contact_hs_calculated_phone_number_area_code" default-value=""/>
+	<parameter name="contact_hs_calculated_phone_number_country_code" default-value=""/>
+	<parameter name="contact_hs_calculated_phone_number_region_code" default-value=""/>
+	<parameter name="contact_hs_clicked_linkedin_ad" default-value=""/>
+	<parameter name="contact_hs_content_membership_email_confirmed" default-value=""/>
+	<parameter name="contact_hs_content_membership_follow_up_enqueued_at" default-value=""/>
+	<parameter name="contact_hs_content_membership_notes" default-value=""/>
+	<parameter name="contact_hs_content_membership_registered_at" default-value=""/>
+	<parameter name="contact_hs_content_membership_registration_domain_sent_to" default-value=""/>
+	<parameter name="contact_hs_content_membership_registration_email_sent_at" default-value=""/>
+	<parameter name="contact_hs_content_membership_status" default-value=""/>
+	<parameter name="contact_hs_conversations_visitor_email" default-value=""/>
+	<parameter name="contact_hs_count_is_unworked" default-value=""/>
+	<parameter name="contact_hs_count_is_worked" default-value=""/>
+	<parameter name="contact_hs_created_by_conversations" default-value=""/>
+	<parameter name="contact_hs_created_by_user_id" default-value=""/>
+	<parameter name="contact_hs_createdate" default-value=""/>
+	<parameter name="contact_hs_date_entered_customer" default-value=""/>
+	<parameter name="contact_hs_date_entered_evangelist" default-value=""/>
+	<parameter name="contact_hs_date_entered_lead" default-value=""/>
+	<parameter name="contact_hs_date_entered_marketingqualifiedlead" default-value=""/>
+	<parameter name="contact_hs_date_entered_opportunity" default-value=""/>
+	<parameter name="contact_hs_date_entered_other" default-value=""/>
+	<parameter name="contact_hs_date_entered_salesqualifiedlead" default-value=""/>
+	<parameter name="contact_hs_date_entered_subscriber" default-value=""/>
+	<parameter name="contact_hs_date_exited_customer" default-value=""/>
+	<parameter name="contact_hs_date_exited_evangelist" default-value=""/>
+	<parameter name="contact_hs_date_exited_lead" default-value=""/>
+	<parameter name="contact_hs_date_exited_marketingqualifiedlead" default-value=""/>
+	<parameter name="contact_hs_date_exited_opportunity" default-value=""/>
+	<parameter name="contact_hs_date_exited_other" default-value=""/>
+	<parameter name="contact_hs_date_exited_salesqualifiedlead" default-value=""/>
+	<parameter name="contact_hs_date_exited_subscriber" default-value=""/>
+	<parameter name="contact_hs_document_last_revisited" default-value=""/>
+	<parameter name="contact_hs_email_bad_address" default-value=""/>
+	<parameter name="contact_hs_email_bounce" default-value=""/>
+	<parameter name="contact_hs_email_click" default-value=""/>
+	<parameter name="contact_hs_email_customer_quarantined_reason" default-value=""/>
+	<parameter name="contact_hs_email_delivered" default-value=""/>
+	<parameter name="contact_hs_email_domain" default-value=""/>
+	<parameter name="contact_hs_email_first_click_date" default-value=""/>
+	<parameter name="contact_hs_email_first_open_date" default-value=""/>
+	<parameter name="contact_hs_email_first_reply_date" default-value=""/>
+	<parameter name="contact_hs_email_first_send_date" default-value=""/>
+	<parameter name="contact_hs_email_hard_bounce_reason" default-value=""/>
+	<parameter name="contact_hs_email_hard_bounce_reason_enum" default-value=""/>
+	<parameter name="contact_hs_email_is_ineligible" default-value=""/>
+	<parameter name="contact_hs_email_last_click_date" default-value=""/>
+	<parameter name="contact_hs_email_last_email_name" default-value=""/>
+	<parameter name="contact_hs_email_last_open_date" default-value=""/>
+	<parameter name="contact_hs_email_last_reply_date" default-value=""/>
+	<parameter name="contact_hs_email_last_send_date" default-value=""/>
+	<parameter name="contact_hs_email_open" default-value=""/>
+	<parameter name="contact_hs_email_optout" default-value=""/>
+	<parameter name="contact_hs_email_optout_5135254" default-value=""/>
+	<parameter name="contact_hs_email_quarantined" default-value=""/>
+	<parameter name="contact_hs_email_quarantined_reason" default-value=""/>
+	<parameter name="contact_hs_email_recipient_fatigue_recovery_time" default-value=""/>
+	<parameter name="contact_hs_email_replied" default-value=""/>
+	<parameter name="contact_hs_email_sends_since_last_engagement" default-value=""/>
+	<parameter name="contact_hs_emailconfirmationstatus" default-value=""/>
+	<parameter name="contact_hs_facebook_ad_clicked" default-value=""/>
+	<parameter name="contact_hs_facebook_click_id" default-value=""/>
+	<parameter name="contact_hs_facebookid" default-value=""/>
+	<parameter name="contact_hs_feedback_last_nps_follow_up" default-value=""/>
+	<parameter name="contact_hs_feedback_last_nps_rating" default-value=""/>
+	<parameter name="contact_hs_feedback_last_survey_date" default-value=""/>
+	<parameter name="contact_hs_feedback_show_nps_web_survey" default-value=""/>
+	<parameter name="contact_hs_first_engagement_object_id" default-value=""/>
+	<parameter name="contact_hs_first_subscription_create_date" default-value=""/>
+	<parameter name="contact_hs_google_click_id" default-value=""/>
+	<parameter name="contact_hs_googleplusid" default-value=""/>
+	<parameter name="contact_hs_has_active_subscription" default-value=""/>
+	<parameter name="contact_hs_ip_timezone" default-value=""/>
+	<parameter name="contact_hs_is_contact" default-value=""/>
+	<parameter name="contact_hs_is_unworked" default-value=""/>
+	<parameter name="contact_hs_language" default-value=""/>
+	<parameter name="contact_hs_last_sales_activity_date" default-value=""/>
+	<parameter name="contact_hs_last_sales_activity_timestamp" default-value=""/>
+	<parameter name="contact_hs_last_sales_activity_type" default-value=""/>
+	<parameter name="contact_hs_lastmodifieddate" default-value=""/>
+	<parameter name="contact_hs_latest_meeting_activity" default-value=""/>
+	<parameter name="contact_hs_latest_sequence_ended_date" default-value=""/>
+	<parameter name="contact_hs_latest_sequence_enrolled" default-value=""/>
+	<parameter name="contact_hs_latest_sequence_enrolled_date" default-value=""/>
+	<parameter name="contact_hs_latest_sequence_finished_date" default-value=""/>
+	<parameter name="contact_hs_latest_sequence_unenrolled_date" default-value=""/>
+	<parameter name="contact_hs_latest_source" default-value=""/>
+	<parameter name="contact_hs_latest_source_data_1" default-value=""/>
+	<parameter name="contact_hs_latest_source_data_2" default-value=""/>
+	<parameter name="contact_hs_latest_source_timestamp" default-value=""/>
+	<parameter name="contact_hs_latest_subscription_create_date" default-value=""/>
+	<parameter name="contact_hs_lead_status" default-value=""/>
+	<parameter name="contact_hs_legal_basis" default-value=""/>
+	<parameter name="contact_hs_lifecyclestage_customer_date" default-value=""/>
+	<parameter name="contact_hs_lifecyclestage_evangelist_date" default-value=""/>
+	<parameter name="contact_hs_lifecyclestage_lead_date" default-value=""/>
+	<parameter name="contact_hs_lifecyclestage_marketingqualifiedlead_date" default-value=""/>
+	<parameter name="contact_hs_lifecyclestage_opportunity_date" default-value=""/>
+	<parameter name="contact_hs_lifecyclestage_other_date" default-value=""/>
+	<parameter name="contact_hs_lifecyclestage_salesqualifiedlead_date" default-value=""/>
+	<parameter name="contact_hs_lifecyclestage_subscriber_date" default-value=""/>
+	<parameter name="contact_hs_linkedin_ad_clicked" default-value=""/>
+	<parameter name="contact_hs_linkedinid" default-value=""/>
+	<parameter name="contact_hs_marketable_reason_id" default-value=""/>
+	<parameter name="contact_hs_marketable_reason_type" default-value=""/>
+	<parameter name="contact_hs_marketable_status" default-value=""/>
+	<parameter name="contact_hs_marketable_until_renewal" default-value=""/>
+	<parameter name="contact_hs_merged_object_ids" default-value=""/>
+	<parameter name="contact_hs_object_id" default-value=""/>
+	<parameter name="contact_hs_persona" default-value=""/>
+	<parameter name="contact_hs_pinned_engagement_id" default-value=""/>
+	<parameter name="contact_hs_pipeline" default-value=""/>
+	<parameter name="contact_hs_predictivecontactscore" default-value=""/>
+	<parameter name="contact_hs_predictivecontactscore_v2" default-value=""/>
+	<parameter name="contact_hs_predictivecontactscorebucket" default-value=""/>
+	<parameter name="contact_hs_predictivescoringtier" default-value=""/>
+	<parameter name="contact_hs_read_only" default-value=""/>
+	<parameter name="contact_hs_sa_first_engagement_date" default-value=""/>
+	<parameter name="contact_hs_sa_first_engagement_descr" default-value=""/>
+	<parameter name="contact_hs_sa_first_engagement_object_type" default-value=""/>
+	<parameter name="contact_hs_sales_email_last_clicked" default-value=""/>
+	<parameter name="contact_hs_sales_email_last_opened" default-value=""/>
+	<parameter name="contact_hs_sales_email_last_replied" default-value=""/>
+	<parameter name="contact_hs_searchable_calculated_international_mobile_number" default-value=""/>
+	<parameter name="contact_hs_searchable_calculated_international_phone_number" default-value=""/>
+	<parameter name="contact_hs_searchable_calculated_mobile_number" default-value=""/>
+	<parameter name="contact_hs_searchable_calculated_phone_number" default-value=""/>
+	<parameter name="contact_hs_sequences_actively_enrolled_count" default-value=""/>
+	<parameter name="contact_hs_sequences_enrolled_count" default-value=""/>
+	<parameter name="contact_hs_sequences_is_enrolled" default-value=""/>
+	<parameter name="contact_hs_social_facebook_clicks" default-value=""/>
+	<parameter name="contact_hs_social_google_plus_clicks" default-value=""/>
+	<parameter name="contact_hs_social_last_engagement" default-value=""/>
+	<parameter name="contact_hs_social_linkedin_clicks" default-value=""/>
+	<parameter name="contact_hs_social_num_broadcast_clicks" default-value=""/>
+	<parameter name="contact_hs_social_twitter_clicks" default-value=""/>
+	<parameter name="contact_hs_testpurge" default-value=""/>
+	<parameter name="contact_hs_testrollback" default-value=""/>
+	<parameter name="contact_hs_time_between_contact_creation_and_deal_close" default-value=""/>
+	<parameter name="contact_hs_time_between_contact_creation_and_deal_creation" default-value=""/>
+	<parameter name="contact_hs_time_in_customer" default-value=""/>
+	<parameter name="contact_hs_time_in_evangelist" default-value=""/>
+	<parameter name="contact_hs_time_in_lead" default-value=""/>
+	<parameter name="contact_hs_time_in_marketingqualifiedlead" default-value=""/>
+	<parameter name="contact_hs_time_in_opportunity" default-value=""/>
+	<parameter name="contact_hs_time_in_other" default-value=""/>
+	<parameter name="contact_hs_time_in_salesqualifiedlead" default-value=""/>
+	<parameter name="contact_hs_time_in_subscriber" default-value=""/>
+	<parameter name="contact_hs_time_to_first_engagement" default-value=""/>
+	<parameter name="contact_hs_time_to_move_from_lead_to_customer" default-value=""/>
+	<parameter name="contact_hs_time_to_move_from_marketingqualifiedlead_to_customer" default-value=""/>
+	<parameter name="contact_hs_time_to_move_from_opportunity_to_customer" default-value=""/>
+	<parameter name="contact_hs_time_to_move_from_salesqualifiedlead_to_customer" default-value=""/>
+	<parameter name="contact_hs_time_to_move_from_subscriber_to_customer" default-value=""/>
+	<parameter name="contact_hs_timezone" default-value=""/>
+	<parameter name="contact_hs_twitterid" default-value=""/>
+	<parameter name="contact_hs_unique_creation_key" default-value=""/>
+	<parameter name="contact_hs_updated_by_user_id" default-value=""/>
+	<parameter name="contact_hs_user_ids_of_all_notification_followers" default-value=""/>
+	<parameter name="contact_hs_user_ids_of_all_notification_unfollowers" default-value=""/>
+	<parameter name="contact_hs_user_ids_of_all_owners" default-value=""/>
+	<parameter name="contact_hs_whatsapp_phone_number" default-value=""/>
+	<parameter name="contact_hubspot_owner_assigneddate" default-value=""/>
+	<parameter name="contact_hubspot_owner_id" default-value=""/>
+	<parameter name="contact_hubspot_team_id" default-value=""/>
+	<parameter name="contact_hubspotscore" default-value=""/>
+	<parameter name="contact_industry" default-value=""/>
+	<parameter name="contact_ip_city" default-value=""/>
+	<parameter name="contact_ip_country" default-value=""/>
+	<parameter name="contact_ip_country_code" default-value=""/>
+	<parameter name="contact_ip_latlon" default-value=""/>
+	<parameter name="contact_ip_state" default-value=""/>
+	<parameter name="contact_ip_state_code" default-value=""/>
+	<parameter name="contact_ip_zipcode" default-value=""/>
+	<parameter name="contact_job_function" default-value=""/>
+	<parameter name="contact_jobtitle" default-value=""/>
+	<parameter name="contact_kloutscoregeneral" default-value=""/>
+	<parameter name="contact_kontakt_typ" default-value=""/>
+	<parameter name="contact_lastmodifieddate" default-value=""/>
+	<parameter name="contact_lastname" default-value=""/>
+	<parameter name="contact_lifecyclestage" default-value=""/>
+	<parameter name="contact_linkedinbio" default-value=""/>
+	<parameter name="contact_linkedinconnections" default-value=""/>
+	<parameter name="contact_marital_status" default-value=""/>
+	<parameter name="contact_message" default-value=""/>
+	<parameter name="contact_military_status" default-value=""/>
+	<parameter name="contact_mobilephone" default-value=""/>
+	<parameter name="contact_notes_last_contacted" default-value=""/>
+	<parameter name="contact_notes_last_updated" default-value=""/>
+	<parameter name="contact_notes_next_activity_date" default-value=""/>
+	<parameter name="contact_num_associated_deals" default-value=""/>
+	<parameter name="contact_num_contacted_notes" default-value=""/>
+	<parameter name="contact_num_conversion_events" default-value=""/>
+	<parameter name="contact_num_notes" default-value=""/>
+	<parameter name="contact_num_unique_conversion_events" default-value=""/>
+	<parameter name="contact_numemployees" default-value=""/>
+	<parameter name="contact_owneremail" default-value=""/>
+	<parameter name="contact_ownername" default-value=""/>
+	<parameter name="contact_phone" default-value=""/>
+	<parameter name="contact_photo" default-value=""/>
+	<parameter name="contact_recent_conversion_date" default-value=""/>
+	<parameter name="contact_recent_conversion_event_name" default-value=""/>
+	<parameter name="contact_recent_deal_amount" default-value=""/>
+	<parameter name="contact_recent_deal_close_date" default-value=""/>
+	<parameter name="contact_relationship_status" default-value=""/>
+	<parameter name="contact_salutation" default-value=""/>
+	<parameter name="contact_school" default-value=""/>
+	<parameter name="contact_seniority" default-value=""/>
+	<parameter name="contact_start_date" default-value=""/>
+	<parameter name="contact_state" default-value=""/>
+	<parameter name="contact_surveymonkeyeventlastupdated" default-value=""/>
+	<parameter name="contact_total_revenue" default-value=""/>
+	<parameter name="contact_twitterbio" default-value=""/>
+	<parameter name="contact_twitterhandle" default-value=""/>
+	<parameter name="contact_twitterprofilephoto" default-value=""/>
+	<parameter name="contact_webinareventlastupdated" default-value=""/>
+	<parameter name="contact_website" default-value=""/>
+	<parameter name="contact_work_email" default-value=""/>
+	<parameter name="contact_zip" default-value=""/>
+	<parameter name="company_about_us" default-value=""/>
+	<parameter name="company_address" default-value=""/>
+	<parameter name="company_address2" default-value=""/>
+	<parameter name="company_annualrevenue" default-value=""/>
+	<parameter name="company_city" default-value=""/>
+	<parameter name="company_closedate" default-value=""/>
+	<parameter name="company_closedate_timestamp_earliest_value_a2a17e6e" default-value=""/>
+	<parameter name="company_country" default-value=""/>
+	<parameter name="company_country_iso" default-value=""/>
+	<parameter name="company_createdate" default-value=""/>
+	<parameter name="company_days_to_close" default-value=""/>
+	<parameter name="company_description" default-value=""/>
+	<parameter name="company_domain" default-value=""/>
+	<parameter name="company_engagements_last_meeting_booked" default-value=""/>
+	<parameter name="company_engagements_last_meeting_booked_campaign" default-value=""/>
+	<parameter name="company_engagements_last_meeting_booked_medium" default-value=""/>
+	<parameter name="company_engagements_last_meeting_booked_source" default-value=""/>
+	<parameter name="company_facebook_company_page" default-value=""/>
+	<parameter name="company_facebookfans" default-value=""/>
+	<parameter name="company_first_contact_createdate" default-value=""/>
+	<parameter name="company_first_contact_createdate_timestamp_earliest_value_78b50eea" default-value=""/>
+	<parameter name="company_first_conversion_date" default-value=""/>
+	<parameter name="company_first_conversion_date_timestamp_earliest_value_61f58f2c" default-value=""/>
+	<parameter name="company_first_conversion_event_name" default-value=""/>
+	<parameter name="company_first_conversion_event_name_timestamp_earliest_value_68ddae0a" default-value=""/>
+	<parameter name="company_first_deal_created_date" default-value=""/>
+	<parameter name="company_founded_year" default-value=""/>
+	<parameter name="company_googleplus_page" default-value=""/>
+	<parameter name="company_hs_additional_domains" default-value=""/>
+	<parameter name="company_hs_all_accessible_team_ids" default-value=""/>
+	<parameter name="company_hs_all_assigned_business_unit_ids" default-value=""/>
+	<parameter name="company_hs_all_owner_ids" default-value=""/>
+	<parameter name="company_hs_all_team_ids" default-value=""/>
+	<parameter name="company_hs_analytics_first_timestamp" default-value=""/>
+	<parameter name="company_hs_analytics_first_timestamp_timestamp_earliest_value_11e3a63a" default-value=""/>
+	<parameter name="company_hs_analytics_first_touch_converting_campaign" default-value=""/>
+	<parameter name="company_hs_analytics_first_touch_converting_campaign_timestamp_earliest_value_4757fe10" default-value=""/>
+	<parameter name="company_hs_analytics_first_visit_timestamp" default-value=""/>
+	<parameter name="company_hs_analytics_first_visit_timestamp_timestamp_earliest_value_accc17ae" default-value=""/>
+	<parameter name="company_hs_analytics_last_timestamp" default-value=""/>
+	<parameter name="company_hs_analytics_last_timestamp_timestamp_latest_value_4e16365a" default-value=""/>
+	<parameter name="company_hs_analytics_last_touch_converting_campaign" default-value=""/>
+	<parameter name="company_hs_analytics_last_touch_converting_campaign_timestamp_latest_value_81a64e30" default-value=""/>
+	<parameter name="company_hs_analytics_last_visit_timestamp" default-value=""/>
+	<parameter name="company_hs_analytics_last_visit_timestamp_timestamp_latest_value_999a0fce" default-value=""/>
+	<parameter name="company_hs_analytics_latest_source" default-value=""/>
+	<parameter name="company_hs_analytics_latest_source_data_1" default-value=""/>
+	<parameter name="company_hs_analytics_latest_source_data_2" default-value=""/>
+	<parameter name="company_hs_analytics_latest_source_timestamp" default-value=""/>
+	<parameter name="company_hs_analytics_num_page_views" default-value=""/>
+	<parameter name="company_hs_analytics_num_page_views_cardinality_sum_e46e85b0" default-value=""/>
+	<parameter name="company_hs_analytics_num_visits" default-value=""/>
+	<parameter name="company_hs_analytics_num_visits_cardinality_sum_53d952a6" default-value=""/>
+	<parameter name="company_hs_analytics_source" default-value=""/>
+	<parameter name="company_hs_analytics_source_data_1" default-value=""/>
+	<parameter name="company_hs_analytics_source_data_1_timestamp_earliest_value_9b2f1fa1" default-value=""/>
+	<parameter name="company_hs_analytics_source_data_2" default-value=""/>
+	<parameter name="company_hs_analytics_source_data_2_timestamp_earliest_value_9b2f9400" default-value=""/>
+	<parameter name="company_hs_analytics_source_timestamp_earliest_value_25a3a52c" default-value=""/>
+	<parameter name="company_hs_avatar_filemanager_key" default-value=""/>
+	<parameter name="company_hs_created_by_user_id" default-value=""/>
+	<parameter name="company_hs_createdate" default-value=""/>
+	<parameter name="company_hs_date_entered_customer" default-value=""/>
+	<parameter name="company_hs_date_entered_evangelist" default-value=""/>
+	<parameter name="company_hs_date_entered_lead" default-value=""/>
+	<parameter name="company_hs_date_entered_marketingqualifiedlead" default-value=""/>
+	<parameter name="company_hs_date_entered_opportunity" default-value=""/>
+	<parameter name="company_hs_date_entered_other" default-value=""/>
+	<parameter name="company_hs_date_entered_salesqualifiedlead" default-value=""/>
+	<parameter name="company_hs_date_entered_subscriber" default-value=""/>
+	<parameter name="company_hs_date_exited_customer" default-value=""/>
+	<parameter name="company_hs_date_exited_evangelist" default-value=""/>
+	<parameter name="company_hs_date_exited_lead" default-value=""/>
+	<parameter name="company_hs_date_exited_marketingqualifiedlead" default-value=""/>
+	<parameter name="company_hs_date_exited_opportunity" default-value=""/>
+	<parameter name="company_hs_date_exited_other" default-value=""/>
+	<parameter name="company_hs_date_exited_salesqualifiedlead" default-value=""/>
+	<parameter name="company_hs_date_exited_subscriber" default-value=""/>
+	<parameter name="company_hs_ideal_customer_profile" default-value=""/>
+	<parameter name="company_hs_is_target_account" default-value=""/>
+	<parameter name="company_hs_last_booked_meeting_date" default-value=""/>
+	<parameter name="company_hs_last_logged_call_date" default-value=""/>
+	<parameter name="company_hs_last_open_task_date" default-value=""/>
+	<parameter name="company_hs_last_sales_activity_date" default-value=""/>
+	<parameter name="company_hs_last_sales_activity_timestamp" default-value=""/>
+	<parameter name="company_hs_last_sales_activity_type" default-value=""/>
+	<parameter name="company_hs_lastmodifieddate" default-value=""/>
+	<parameter name="company_hs_latest_createdate_of_active_subscriptions" default-value=""/>
+	<parameter name="company_hs_latest_meeting_activity" default-value=""/>
+	<parameter name="company_hs_lead_status" default-value=""/>
+	<parameter name="company_hs_merged_object_ids" default-value=""/>
+	<parameter name="company_hs_num_blockers" default-value=""/>
+	<parameter name="company_hs_num_child_companies" default-value=""/>
+	<parameter name="company_hs_num_contacts_with_buying_roles" default-value=""/>
+	<parameter name="company_hs_num_decision_makers" default-value=""/>
+	<parameter name="company_hs_num_open_deals" default-value=""/>
+	<parameter name="company_hs_object_id" default-value=""/>
+	<parameter name="company_hs_parent_company_id" default-value=""/>
+	<parameter name="company_hs_pinned_engagement_id" default-value=""/>
+	<parameter name="company_hs_pipeline" default-value=""/>
+	<parameter name="company_hs_predictivecontactscore_v2" default-value=""/>
+	<parameter name="company_hs_predictivecontactscore_v2_next_max_max_d4e58c1e" default-value=""/>
+	<parameter name="company_hs_read_only" default-value=""/>
+	<parameter name="company_hs_sales_email_last_replied" default-value=""/>
+	<parameter name="company_hs_target_account" default-value=""/>
+	<parameter name="company_hs_target_account_probability" default-value=""/>
+	<parameter name="company_hs_target_account_recommendation_snooze_time" default-value=""/>
+	<parameter name="company_hs_target_account_recommendation_state" default-value=""/>
+	<parameter name="company_hs_time_in_customer" default-value=""/>
+	<parameter name="company_hs_time_in_evangelist" default-value=""/>
+	<parameter name="company_hs_time_in_lead" default-value=""/>
+	<parameter name="company_hs_time_in_marketingqualifiedlead" default-value=""/>
+	<parameter name="company_hs_time_in_opportunity" default-value=""/>
+	<parameter name="company_hs_time_in_other" default-value=""/>
+	<parameter name="company_hs_time_in_salesqualifiedlead" default-value=""/>
+	<parameter name="company_hs_time_in_subscriber" default-value=""/>
+	<parameter name="company_hs_total_deal_value" default-value=""/>
+	<parameter name="company_hs_unique_creation_key" default-value=""/>
+	<parameter name="company_hs_updated_by_user_id" default-value=""/>
+	<parameter name="company_hs_user_ids_of_all_notification_followers" default-value=""/>
+	<parameter name="company_hs_user_ids_of_all_notification_unfollowers" default-value=""/>
+	<parameter name="company_hs_user_ids_of_all_owners" default-value=""/>
+	<parameter name="company_hubspot_owner_assigneddate" default-value=""/>
+	<parameter name="company_hubspot_owner_id" default-value=""/>
+	<parameter name="company_hubspot_team_id" default-value=""/>
+	<parameter name="company_hubspotscore" default-value=""/>
+	<parameter name="company_industry" default-value=""/>
+	<parameter name="company_is_public" default-value=""/>
+	<parameter name="company_lifecyclestage" default-value=""/>
+	<parameter name="company_linkedin_company_page" default-value=""/>
+	<parameter name="company_linkedinbio" default-value=""/>
+	<parameter name="company_name" default-value=""/>
+	<parameter name="company_notes_last_contacted" default-value=""/>
+	<parameter name="company_notes_last_updated" default-value=""/>
+	<parameter name="company_notes_next_activity_date" default-value=""/>
+	<parameter name="company_num_associated_contacts" default-value=""/>
+	<parameter name="company_num_associated_deals" default-value=""/>
+	<parameter name="company_num_contacted_notes" default-value=""/>
+	<parameter name="company_num_conversion_events" default-value=""/>
+	<parameter name="company_num_conversion_events_cardinality_sum_d095f14b" default-value=""/>
+	<parameter name="company_num_notes" default-value=""/>
+	<parameter name="company_numberofemployees" default-value=""/>
+	<parameter name="company_owneremail" default-value=""/>
+	<parameter name="company_ownername" default-value=""/>
+	<parameter name="company_phone" default-value=""/>
+	<parameter name="company_recent_conversion_date" default-value=""/>
+	<parameter name="company_recent_conversion_date_timestamp_latest_value_72856da1" default-value=""/>
+	<parameter name="company_recent_conversion_event_name" default-value=""/>
+	<parameter name="company_recent_conversion_event_name_timestamp_latest_value_66c820bf" default-value=""/>
+	<parameter name="company_recent_deal_amount" default-value=""/>
+	<parameter name="company_recent_deal_close_date" default-value=""/>
+	<parameter name="company_state" default-value=""/>
+	<parameter name="company_timezone" default-value=""/>
+	<parameter name="company_total_money_raised" default-value=""/>
+	<parameter name="company_total_revenue" default-value=""/>
+	<parameter name="company_twitterbio" default-value=""/>
+	<parameter name="company_twitterfollowers" default-value=""/>
+	<parameter name="company_twitterhandle" default-value=""/>
+	<parameter name="company_type" default-value=""/>
+	<parameter name="company_web_technologies" default-value=""/>
+	<parameter name="company_website" default-value=""/>
+	<parameter name="company_zip" default-value=""/>
+	<endpoint name="items">
+		<success>
+			<response-from-static filename="items.json" download-filename="items.json"/>
+		</success>
+		<error/>
+	</endpoint>
+	<endpoint name="action">
+		<parameter-transformation xslt="hubspot-parameter.xslt">
+			<xml-from-application file="parameter-properties.xml"/>
+		</parameter-transformation>
+		<success if="${objectId}" equals="1">
+			<forward-to-endpoint endpoint-name="contact-letter"/>
+		</success>
+		<success if="${objectId}" equals="2">
+			<forward-to-endpoint endpoint-name="contact-powerpoint"/>
+		</success>
+		<success if="${objectId}" equals="3">
+			<forward-to-endpoint endpoint-name="company-letter"/>
+		</success>
+		<success if="${objectId}" equals="4">
+			<forward-to-endpoint endpoint-name="company-powerpoint"/>
+		</success>
+		<success if="${objectId}" equals="5">
+			<forward-to-endpoint endpoint-name="pdf"/>
+		</success>
+		<success if="${objectId}" equals="6">
+			<forward-to-endpoint endpoint-name="pdf"/>
+		</success>
+		<success if="${objectId}" equals="7">
+			<response-from-static filename="dummy-email-response.json" download-filename="response.json"/>
+		</success>
+		<error/>
+	</endpoint>
+	<endpoint name="contact-letter">
+		<success>
+			<input-intermediate-value name="shortlink"/>
+			<response-transformation name="shortlink"/>
+		</success>
+		<task class="endpoints.task.CreateShortLinkToEndpointTask" destination-endpoint-name="contact-letter-download" output-intermediate-value="shortlink" expires-in-minutes="15"/>
+	</endpoint>
+	<endpoint name="contact-letter-download">
+		<success>
+			<ooxml-parameter-expansion source="contact-letter.docx" download-filename="hubspot-letter.docx"/>
+		</success>
+	</endpoint>
+	<endpoint name="company-letter">
+		<success>
+			<input-intermediate-value name="shortlink"/>
+			<response-transformation name="shortlink"/>
+		</success>
+		<task class="endpoints.task.CreateShortLinkToEndpointTask" destination-endpoint-name="company-letter-download" output-intermediate-value="shortlink" expires-in-minutes="15"/>
+	</endpoint>
+	<endpoint name="company-letter-download">
+		<success>
+			<ooxml-parameter-expansion source="company-letter.docx" download-filename="hubspot-letter.docx"/>
+		</success>
+	</endpoint>
+	<endpoint name="contact-powerpoint">
+		<success>
+			<input-intermediate-value name="shortlink"/>
+			<response-transformation name="shortlink"/>
+		</success>
+		<task class="endpoints.task.CreateShortLinkToEndpointTask" destination-endpoint-name="contact-powerpoint-download" output-intermediate-value="shortlink" expires-in-minutes="15"/>
+	</endpoint>
+	<endpoint name="contact-powerpoint-download">
+		<success>
+			<ooxml-parameter-expansion source="contact-powerpoint.pptx" download-filename="hubspot-presentation.pptx"/>
+		</success>
+	</endpoint>
+	<endpoint name="company-powerpoint">
+		<success>
+			<input-intermediate-value name="shortlink"/>
+			<response-transformation name="shortlink"/>
+		</success>
+		<task class="endpoints.task.CreateShortLinkToEndpointTask" destination-endpoint-name="company-powerpoint-download" output-intermediate-value="shortlink" expires-in-minutes="15"/>
+	</endpoint>
+	<endpoint name="company-powerpoint-download">
+		<success>
+			<ooxml-parameter-expansion source="company-powerpoint.pptx" download-filename="hubspot-presentation.pptx"/>
+		</success>
+	</endpoint>
+	<endpoint name="pdf">
+		<success>
+			<input-intermediate-value name="shortlink"/>
+			<response-transformation name="shortlink"/>
+		</success>
+		<task class="endpoints.task.CreateShortLinkToEndpointTask" destination-endpoint-name="pdf-download" output-intermediate-value="shortlink" expires-in-minutes="15"/>
+	</endpoint>
+	<endpoint name="pdf-download">
+		<success>
+			<response-transformation name="pdf" download-filename="hubspot.pdf"/>
+		</success>
+	</endpoint>
+</endpoint-folder>
