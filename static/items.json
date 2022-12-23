@@ -1,4 +1,5 @@
 {
+	"fields": ["companies.country", "companies.name", "companies.phone", "companies.timezone", "contacts.*","tickets.createdate","tickets.subject"],
 	"menu": {
 		"item": [
 			{
