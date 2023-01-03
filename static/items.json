@@ -1,5 +1,5 @@
 {
-	"fields": ["companies.country", "companies.name", "companies.phone", "companies.timezone", "contacts.*","tickets.createdate","tickets.subject","deals.dealname","marketing_events.hs_event_name"],
+	"fields": ["companies.country", "companies.name", "companies.phone", "companies.timezone", "contacts.*","tickets.createdate","tickets.subject","deals.dealname","marketing_event.hs_event_name"],
 	"menu": {
 		"item": [
 			{
